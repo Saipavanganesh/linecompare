@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.lang.Math;
 public class LineComparision {
     public static void main(String[] args) {
+        System.out.println("Welcome to Line comparison computation program");
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter first co-ordinates:");
