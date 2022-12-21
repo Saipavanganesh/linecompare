@@ -34,8 +34,11 @@ public class LineComparision {
         double length2 = Math.sqrt(((x4 - x3) * (x4 - x3)) + ((y4 - y3) * (y4 - y3)));
         System.out.println(length2);
 
-        if(length2==length1){
-            System.out.println("Lengths of both lines are equal");
+        if(Double.toString(length1).equals(Double.toString(length2))){
+            System.out.println("Both Strings are equal");
+        }
+        else{
+            System.out.println("Both Strings are not equal");
         }
     }
 }
